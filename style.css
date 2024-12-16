@@ -34,6 +34,10 @@ body {
 }
 .task-row-wrapper {
   display: flex;
+  flex-wrap: wrap;
+}
+label[for="new-task"] {
+  flex: 1 0 100%;
 }
 ul {
   margin:0;
