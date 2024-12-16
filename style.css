@@ -20,10 +20,10 @@ button {
   display: block;
   text-align: right;
 }
-.header img {
+.header__img {
   width: 100%;
 }
-.header .more_inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -32,7 +32,7 @@ button {
     text-align: center;
   }
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -42,7 +42,7 @@ button {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.section__add-item {
   display: flex;
   flex-wrap: wrap;
 
